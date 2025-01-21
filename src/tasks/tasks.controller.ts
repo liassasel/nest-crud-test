@@ -34,4 +34,6 @@ export class TasksController {
     async deleteTask(@Param('id', ParseIntPipe) id: number) {
         return this.tasksService.deleteTask(id);
     }
+
+    
 }
